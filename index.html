@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PIA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      background-color: white;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 30px;
+      margin: 10px;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+      transform: scale(1.05);
+    }
+
+    .btn:active {
+      background-color: #3e8e41;
+    }
+
+    .btn:focus {
+      outline: none;
+    }
+
+    .highlight {
+      color: red !important;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>PIA</h1>
+    <a href="https://oldshin12.github.io/Etapa1/" class="btn" onmouseover="this.classList.add('highlight')" onmouseout="this.classList.remove('highlight')">Etapa 1: Presentación</a>
+    <a href="https://oldshin12.github.io/Etapa2/" onmouseover="this.classList.add('highlight')" onmouseout="this.classList.remove('highlight')">Etapa 2: Reporte de práctica</a>
+    <a href="https://oldshin12.github.io/Etapa3/" class="btn" onmouseover="this.classList.add('highlight')" onmouseout="this.classList.remove('highlight')">Etapa 3: Insertar datos</a>
+    <a href="https://oldshin12.github.io/Etapa-4---Internet/" class="btn" onmouseover="this.classList.add('highlight')" onmouseout="this.classList.remove('highlight')">Etapa 4: Subir a la web</a>
+  </div>
+
+</body>
+</html>
